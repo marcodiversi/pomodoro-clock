@@ -50,8 +50,8 @@ $(document).ready(function() {
     $('#breakT').html(breakT);
   });
   $('#lessWork').on('click', function() {
-    if (workT > 1) {
-      workT -= 1;
+    if (workT > 5) {
+      workT -= 5;
     }
     $('#workT').html(workT);
   });
